@@ -13,6 +13,15 @@ const FeedbackOptions = ({ options, onClick }) => {
           >
             {option}
           </Button>
+
+          // <Button
+          //   name={option}
+          //   type="button"
+          //   key={option}
+          //   onClick={() => onClick(option)}
+          // >
+          //   {option}
+          // </Button>
         );
       })}
     </>
