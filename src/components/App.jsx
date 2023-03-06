@@ -1,14 +1,14 @@
-export const App = () => {
+import Feedback from './Feedback/Feedback';
+import GlobalStyle from './GlobalStyle';
+import Container from './Container';
+
+const App = () => {
   return (
-    <div
-    // style={{
-    //   height: '100vh',
-    //   display: 'flex',
-    //   justifyContent: 'center',
-    //   alignItems: 'center',
-    //   fontSize: 40,
-    //   color: '#010101'
-    // }}
-    ></div>
+    <Container>
+      <GlobalStyle />
+      <Feedback />
+    </Container>
   );
 };
+
+export default App;
