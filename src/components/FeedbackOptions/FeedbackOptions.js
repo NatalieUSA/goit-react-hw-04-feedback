@@ -1,3 +1,4 @@
+import propTypes from 'prop-types';
 import Button from 'components/shared/Button/Button';
 
 const FeedbackOptions = ({ options, onClick }) => {
@@ -13,15 +14,6 @@ const FeedbackOptions = ({ options, onClick }) => {
           >
             {option}
           </Button>
-
-          // <Button
-          //   name={option}
-          //   type="button"
-          //   key={option}
-          //   onClick={() => onClick(option)}
-          // >
-          //   {option}
-          // </Button>
         );
       })}
     </>
@@ -29,3 +21,8 @@ const FeedbackOptions = ({ options, onClick }) => {
 };
 
 export default FeedbackOptions;
+
+FeedbackOptions.propTypes = {
+  options: propTypes.array.isRequired,
+  onClick: propTypes.func.isRequired,
+};
