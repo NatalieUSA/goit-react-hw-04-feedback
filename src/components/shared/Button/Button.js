@@ -12,8 +12,8 @@ const Button = ({ children, onClick, type, text }) => {
 
 export default Button;
 
-Button.protoTypes = {
-  onClick: PropTypes.func,
-  type: PropTypes.oneOf(['submit', 'button', 'reset']),
-  children: PropTypes.node.isRequired,
-};
+// Button.protoTypes = {
+//   onClick: PropTypes.func,
+//   type: PropTypes.oneOf(['submit', 'button', 'reset']),
+//   children: PropTypes.node.isRequired,
+// };

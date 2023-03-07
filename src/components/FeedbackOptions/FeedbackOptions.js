@@ -22,7 +22,7 @@ const FeedbackOptions = ({ options, onClick }) => {
 
 export default FeedbackOptions;
 
-FeedbackOptions.propTypes = {
-  options: propTypes.array.isRequired,
-  onClick: propTypes.func.isRequired,
-};
+// FeedbackOptions.propTypes = {
+//   options: propTypes.array.isRequired,
+//   onClick: propTypes.func.isRequired,
+// };
