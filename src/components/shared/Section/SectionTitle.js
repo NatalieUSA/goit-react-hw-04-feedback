@@ -10,6 +10,6 @@ const SectionTitle = ({ title }) => {
 
 export default SectionTitle;
 
-// SectionTitle.propTypes = {
-//   title: propTypes.string.isRequired,
-// };
+SectionTitle.propTypes = {
+  title: propTypes.string.isRequired,
+};

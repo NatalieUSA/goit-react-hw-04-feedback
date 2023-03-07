@@ -13,9 +13,9 @@ const Statistics = ({ good, neutral, bad, positivePersent }) => {
 
 export default Statistics;
 
-// Statistics.propTypes = {
-//   good: PropTypes.number.isRequired,
-//   neutral: PropTypes.number.isRequired,
-//   bad: PropTypes.number.isRequired,
-//   positivePersent: PropTypes.string.isRequired,
-// };
+Statistics.propTypes = {
+  good: PropTypes.number.isRequired,
+  neutral: PropTypes.number.isRequired,
+  bad: PropTypes.number.isRequired,
+  positivePersent: PropTypes.string.isRequired,
+};

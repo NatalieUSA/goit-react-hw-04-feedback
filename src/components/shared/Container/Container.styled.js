@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Container = styled.div`
+const Wrap = styled.div`
   padding: 16px;
   display: flex;
   justify-content: center;
@@ -11,4 +11,4 @@ const Container = styled.div`
   margin-left: auto;
 `;
 
-export default Container;
+export default Wrap;

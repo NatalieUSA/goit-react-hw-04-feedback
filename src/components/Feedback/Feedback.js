@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import SectionTitle from 'components/shared/SectionTitle/SectionTitle';
+import SectionTitle from 'components/shared/Section/SectionTitle';
 import Notification from 'components/shared/Notification/Notification';
 import FeedbackOptions from 'components/FeedbackOptions/FeedbackOptions';
 import Statistics from 'components/Statistics/Statistics';

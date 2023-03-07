@@ -1,6 +1,6 @@
 import Feedback from './Feedback/Feedback';
 import GlobalStyle from './GlobalStyle';
-import Container from './Container';
+import Container from './shared/Container/Container';
 
 const App = () => {
   return (
